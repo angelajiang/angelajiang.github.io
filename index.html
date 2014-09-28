@@ -1,13 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-  	<meta charset="utf-8">
-  	<title>Angela Jiang</title>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-  </head>
-  <body>
-    <p>Hello world</p>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  </body>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title>Section scroller template</title>
+		<meta name="generator" content="Bootply" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+		<!--[if lt. IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link href="css/styles.css" rel="stylesheet">
+	</head>
+	<body>
+<nav class="navbar navbar-trans navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapsible">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Angela Jiang</a>
+    </div>
+    <div class="navbar-collapse collapse" id="navbar-collapsible">
+      <ul class="nav navbar-nav navbar-left">
+        <li><a href="#section1">Home</a></li>
+        <li><a href="#section2">Bio</a></li>
+        <li><a href="#section3">Research</a></li>
+        <li><a href="#section4">Work</a></li>
+        <li>&nbsp;</li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="container-fluid" id="section1">
+	<h1 class="text-center v-center">Angela Jiang</h1>
+  <br>
+	<div class="row">
+	<div class="col-sm-3">
+    <div class="row">
+    	<div class="col-sm-10 col-sm-offset-2 text-center">
+        <a href="pdf/angelajiang-cv-2014.pdf" target="_blank">
+          <i class="fa fa-file-pdf-o fa-5x"></i>
+        </a>
+        <h3>Resume</h3>
+    </div>
+    </div>
+	</div>
+  <div class="col-sm-3 text-center">
+    <div class="row">
+    	<div class="col-sm-10 text-center">
+        <a href="http://www.linkedin.com/in/jiangangela" target="_blank">
+          <i class="fa fa-linkedin fa-5x"></i>
+        </a>
+        <h3>LinkedIn</h3>
+      </div>
+    </div>
+	</div>
+  <div class="col-sm-3 text-center">
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1 text-center">
+        <a href="https://github.com/angelajiang" target="_blank">
+          <i class="fa fa-github-square fa-5x"></i>
+        </a>
+        <h3>Github</h3>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-3 text-center">
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1 text-center">
+          <a href="mailto:to.ajiang@gmail.com" target="_top">
+            <i class="fa fa-envelope fa-5x"></i>
+          </a>
+        <h3>Email</h3>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<section class="container-fluid" id="section2">
+  <div class="row">
+  	<div class="col-sm-8 col-sm-offset-2 text-center">
+        <h1>About me</h1>
+        <img class="profpic img-responsive img-center" src="img/website-cropped.png" alt="" />
+        <br>
+		<p class="lead">I recently started working as a software developer at Groupon. In 2014, I graduated from Northwestern University with a B.S. in Computer Science.</p>
+    </div>
+  </div>
+</section>
+
+<section class="container-fluid" id="section3">
+	<h1 class="text-center">Research experience</h1>
+    <br>
+    <div class="row">
+      <div class="col-sm-11 col-sm-offset-1">
+        <p class="lead">I am interested in a wide range of topics in computer systems research. My current research is focused on <strong>distributed systems</strong> and <strong>networking</strong>. In 2013, I began working with Northwestern's <a href="http://aqualab.cs.northwestern.edu/" target="_blank">AquaLab</a>, under <a href="http://www.cs.northwestern.edu/~fabianb/" target="_blank">Prof. Fabian Bustamante.</a></p>
+        <div class="col-sm-10">
+          <div> <!--Publications-->
+          <h2 class="heading">Publications</h2>
+            <div class="item">
+              <h3><i class="fa fa-external-link"></i><a href="http://dl.acm.org/citation.cfm?id=2631470" target="_blank"> A cliq of content curators</a></h3>
+              <h4>Appeared as poster at ACM SIGCOMM 2014</a></h4>
+              <p>Received <a href="http://src.acm.org/winners.html" target="_blank">best undergraduate poster award</a></p>
+            </div><!--//item-->
+          </div> <!--//Publications-->
+          <br>
+          <div> <!--Projects-->
+          <h2 class="heading">Projects</h2>
+            <div class="item">
+              <h3>cliq: A distributed content curator</h3>
+              <p> We design and implement cliq, a distributed content curator. We design and build cliq, a fullly 
+                  decentralized social news site. Unlike other media, social news depends on users to upload content, vote, 
+                  and ultimately determine what content is news. However, we observe that centralized architectures of 
+                  exisiting curators lead to potential content bias and data aggregation of users. This is particularly 
+                  damaging to the “Web democracy” that social news sites try to provide. The goal of cliq is to provide a 
+                  social news site that is resilient to both issues. Our second contribution is a large-scale analysis of 
+                  reddit, used to inform our design of cliq.
+              </p>
+            </div><!--//item-->
+            <div class="item">
+              <h3>Collateral damage of Internet censorship</h3>
+              <p> Many ISPs and governments choose to apply Internet censorship to certain networks. However, external
+                  traffic routed through these networks may be censored incidentally. We attempt to detect and measure the
+                  collateral damage caused by a variety of censorship methods. We implement an endhost application to detect
+                  Internet censorship and must determine the cases that are due to collateral censorship.
+              </p>
+            </div><!--//item-->
+          </div> <!--//Projects-->
+          <br>
+          <div><!--Awards-->
+          <h2 class="heading">Awards</h2>
+              <div class="item">
+                  <h3><i class="fa fa-external-link"></i><a href="http://src.acm.org/winners.html" target="_blank"> ACM Student Research Competition</a></h3>
+                  <p>Best undergraduate poster at ACM SIGCOMM 2014. 
+                  <br>Will compete in grand finals after all semifinalists are chosen.</p>
+              </div><!--//item-->
+          </div> <!--//Awards-->
+          <br>
+        </div>
+      </div>
+   </div>
+</section>
+
+<section class="container-fluid" id="section4">
+	<h1 class="text-center">Professional Experience</h1>
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-1">
+        <div> <!--Groupon-->
+          <div class="row">
+            <div class="col-md-12">
+              <div class="inline-headers">
+                <h2 class="heading groupon">Groupon</h2>
+                <h4>&nbsp;&nbsp;Aug. 2014 - current</h4>
+              </div>
+            </div>
+          </div>
+            <div class="item">
+              <h4>Software developer</h4>
+              <ul>
+                <li>Optimize team - responsible for Groupon's AB testing platform.</li>
+                <li>Technologies used: Coffeescript, Node.js, Clojure</li>
+              </ul>
+            </div><!--//item-->
+        </div> <!--//Groupon-->
+        <div> <!--nu-->
+          <div class="row">
+            <div class="col-md-12">
+              <div class="inline-headers">
+                <h2 class="heading nu">Northwestern University</h2>
+                <h4>&nbsp;&nbsp;Sept. 2013 - Aug. 2014</h4>
+              </div>
+            </div>
+          </div>
+            <div class="item">
+              <h4>Undergraduate research assistant</h4>
+              <ul>
+                <li>Conducted independent research projects under Prof. Fabian Bustamante</li>
+                <li>Lab specializes in distributed systems and networking research</li>
+              </ul>
+            </div><!--//item-->
+        </div> <!--//nu-->
+        <div> <!--Amazon-->
+          <div class="row">
+            <div class="col-md-12">
+              <div class="inline-headers">
+                <h2 class="heading amazon">Amazon</h2>
+                <h4>&nbsp;&nbsp;Jul - Sept 2013</h4>
+              </div>
+            </div>
+          </div>
+            <div class="item">
+              <h4>Software developer intern</h4>
+              <ul>
+                <li>Designed and implemented data visualization tool for click stream data.</li>
+                <li>Technologies used: D3.js, Python, Sqlite, Amcharts</li>
+              </ul>
+            </div><!--//item-->
+        </div> <!--//Amazon-->
+        <div> <!--DSC-->
+          <div class="row">
+            <div class="col-md-12">
+              <div class="inline-headers">
+                <h2 class="heading dsc">DSC Logistics</h2>
+                <h4>&nbsp;&nbsp;Jul - Sept 2012</h4>
+              </div>
+          </div>
+            </div>
+            <div class="item">
+              <h4>Software developer intern</h4>
+              <ul>
+                <li>Involved with design of a new employee intranet.</li>
+                <li>Tools used: HTML/CSS/Javascript, Apache, IBM Websphere</li>
+              </ul>
+            </div><!--//item-->
+        </div> <!--//DSC-->
+    </div>
+    </div>
+</section>
+
+	<!-- script references -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
 </html>
