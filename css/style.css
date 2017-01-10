@@ -1,0 +1,38 @@
+img {
+  max-width: 500px;
+}
+figcaption {
+  max-width: 500px;
+}
+figure {
+  text-align: center;
+  display: inline-block;
+  margin: 20px;
+  vertical-align: top;
+}
+
+.img-responsive { 
+  margin: 0 auto; 
+  position: absolute;
+   left: 50%;
+   top: 50%; 
+   margin-left: -200px;
+   margin-top: -150px; 
+}
+
+body {
+   background: url("https://www.sciencenews.org/sites/default/files/2015/12/main/articles/122615_24_feat.jpg");
+    background-size: 1440px 800px;
+}
+
+figcaption {
+  padding: 5px;
+  font-family: 'Cherry Swash', cursive;
+  font-size: 5em;
+  font-weight: 700;
+  border: none;
+  background: transparent;
+  word-wrap:normal;
+  text-align: center;
+}
+
