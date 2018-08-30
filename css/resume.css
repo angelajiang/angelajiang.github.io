@@ -72,7 +72,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #BD5D38;
+  background-color: #FF3366;
 }
 
 .dev-icons {
@@ -80,7 +80,7 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #FF3366;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -117,8 +117,8 @@ p.lead {
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
+    max-width: 15rem;
+    max-height: 15rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
   #sideNav .navbar-collapse {
@@ -140,6 +140,12 @@ p.lead {
     -ms-flex-direction: column;
     flex-direction: column;
     width: 100%;
+  }
+  #sideNav .nav-link.active {
+    color: #404040;
+  }
+  #sideNav .nav-link.active:hover {
+    color: #fff;
   }
   #sideNav .navbar-collapse .navbar-nav .nav-item {
     display: block;
@@ -176,15 +182,15 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #fbd2d7 !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #FF3366 !important;
 }
 
 a {
-  color: #BD5D38;
+  color: #FF3366;
 }
 
 a:hover, a:focus, a:active {
